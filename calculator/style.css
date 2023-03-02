@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding:100;
+    font-family:'poppins','sans-serif';
+    box-sizing: border-box;
+    
+       
+       
+   
+   
+    
+}
+.container{
+    height:100vh ;
+    width: 100%;
+    
+    
+    background: #798588;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("calcc.jpg") ;
+    background-size: cover;
+
+
+   
+    
+   
+    
+}
+.calculator{
+    background-color:#000000;
+    padding: 30px;
+    border-radius: 11px;
+   
+
+    
+
+}
+.calculator form input{
+    border:0;
+    padding: auto;
+    outline: 0;
+    width: 50px;
+    height: 60px;
+    border-radius: 15px;
+    background:transparent;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    color:#1692eb;
+    cursor:alias;
+    margin: auto;
+}
+
+.divyansh{
+    outline: 10px;
+}
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1px;
+    color: black;
+    
+    
+    
+
+
+}
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size: medium;
+    box-shadow: none;
+    border:2.5px solid #33ffd8;
+    border-radius: 1px;
+    background-color: rgb(93, 83, 83);
+    
+}
+form input.equal{
+    width:80 px;
+    color:red;
+
+}
+form input.operator{
+    color:#acc1bd;
+}
+h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:black;
+    background-color: rgb(164, 174, 174);
+    margin: auto;
+}
+.title{
+    margin: auto;
+    background-color:#acb46a    ;
+    
+}
